@@ -1,0 +1,134 @@
+body {
+  margin: auto;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1em;
+}
+
+.full-container {
+  background-color: #ffffff;
+  margin: 50px auto;
+  width: 50%;
+  border: solid;
+  border-style: none;
+  border-radius: 20px;
+  box-shadow: 0 15px 50px #7280a7;
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+}
+
+.top-container {
+  position: relative;
+}
+
+.middle-container {
+  margin: auto;
+  width: 65%;
+  position: relative;
+}
+
+.annual-plan {
+  background-color: #f5f7ff;
+  height: 85px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+  align-content: center;
+  margin:20px auto;
+}
+
+.plan {
+  width: 70%;
+  margin-left: 48px;
+  text-align: left;
+  line-height: 5px;
+}
+
+.price {
+  width: 70%;
+  margin-left: 48px;
+  text-align: left;
+  line-height: 5px;
+}
+
+.change {
+  text-decoration: underline;
+  color: #3829E0;
+  text-align: right;
+  line-height: 5px;
+  margin-right: 15px;
+}
+
+.music {
+  max-width: 50%;
+  float: left;
+  margin-right: 15px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.payment-bt {
+  margin: auto;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  color: #ffffff;
+  font-size: 1rem;
+  background: #3929e0;
+  padding: 2.5px 90px 2.5px 90px;
+  text-decoration: none;
+  bottom: 20px;
+  margin: auto;
+  display: inline-block;
+  box-shadow: 2px 5px 10px #7280a7;
+}
+
+.btn:hover {
+  background: #3929e0;
+  background-image: -webkit-linear-gradient(top, #7280a7, #7280a7);
+  background-image: -moz-linear-gradient(top, #7280a7, #7280a7);
+  background-image: -ms-linear-gradient(top, #7280a7, #7280a7);
+  background-image: -o-linear-gradient(top, #7280a7, #7280a7);
+  background-image: linear-gradient(to bottom, #7280a7, #7280a7);
+  text-decoration: none;
+}
+
+.cancel {
+  line-height: 2;
+  margin: 30px;
+}
+
+h1 {
+  padding-top: 20px;
+  color: #1F2F56;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+p {
+  color: #7280A7;
+}
+
+a {
+  color: #7280A7;
+}
+
+.cancel:hover {
+  color: #1F2F56;
+}
+
+.change:hover {
+  color: #7280A7;
+}
